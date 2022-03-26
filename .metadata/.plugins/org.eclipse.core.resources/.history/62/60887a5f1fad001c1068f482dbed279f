@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class SumaProductoNumeros {
+	public static void main(String[] ar) {
+		int num1;
+		int num2;
+		int suma;
+		int producto;
+		Scanner teclado=new Scanner(System.in);
+		System.out.println("ingresa el primer numero");
+		num1=teclado.nextInt();
+		System.out.println("ingresa el segundo numero");
+		num2=teclado.nextInt();
+		suma=num1+num2;
+		producto=num1*num2;
+		System.out.println("la suma de los productos es:");
+		System.out.println(suma);
+		System.out.println("el producto de los productos es:");
+		System.out.println(producto);
+	}
+
+}
