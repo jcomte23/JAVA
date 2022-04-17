@@ -20,10 +20,7 @@ public class CondicionesCompuestas1 {
 			}else {
 				System.out.println(num3);
 			}
-		}
-		
-		
-		
+		}		
 	}
 
 }
