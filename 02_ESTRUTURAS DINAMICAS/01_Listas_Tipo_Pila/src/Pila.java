@@ -17,7 +17,6 @@ public class Pila extends JFrame implements ActionListener{
 
  	public Pila() {
 		raiz=null;
-		
 		//carga de la interfaz visual
 		setLayout(null);
 		lblNum=new JLabel("Ingrese el numero:");
