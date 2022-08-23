@@ -1,3 +1,4 @@
+
 import javax.swing.*;
 import java.awt.event.*;
 public class Cajero extends JFrame implements ActionListener{
@@ -27,11 +28,12 @@ public class Cajero extends JFrame implements ActionListener{
     }
 
     public void simulacion () {
-        int estado = 0;
+        int estado = 0;//0=desocupado el cajero y 1 significa que esta ocupado 
         int llegada = 2 + (int) (Math.random () * 2);
         int salida = -1;
         int cantAtendidas = 0;
         Cola cola = new Cola ();
+        //600 minutos equivalen a 10 horaqs	
         for (int minuto = 0 ; minuto < 600 ; minuto++) {
             if (llegada == minuto)
             {
